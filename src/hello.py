@@ -15,11 +15,11 @@ def hello_spencer():
     f.close()
 
     return jsonify({
-        "message": "Hello Spencer",
+        "message": "Hello Wimmer",
         "counter" : counter,
         "status": "success"
     })
 
-# Run the application
+# Run the application FS
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5556)
